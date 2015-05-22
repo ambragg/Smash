@@ -186,6 +186,26 @@ class LevelViewController: UIViewController, UICollisionBehaviorDelegate {
                         if let LevelVC = storyboard?.instantiateViewControllerWithIdentifier("LevelVC") as? LevelViewController {
                             
                             navigationController?.viewControllers = [LevelVC]
+                            
+                            
+                            if balls.count == 0 {
+                                
+                                GameData.mainData().currentLevel++
+                                
+                                if let DoneVC = storyboard?.instantiateViewControllerWithIdentifier("DoneVC") as? DoneViewController {
+                                    
+                                    navigationController?.viewControllers = [DoneVC]
+                                    
+                                    
+                                    
+                                }
+                                
+                                
+                            }
+                            
+                            
+                            
+                            
                         }
                     
                         

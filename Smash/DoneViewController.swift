@@ -14,6 +14,14 @@ class DoneViewController: UIViewController {
     
     
     @IBAction func restartGame(sender: AnyObject) {
+        
+        if let doneVC = storyboard?.instantiateViewControllerWithIdentifier("DoneVC") as? LevelViewController {
+            
+            navigationController?.viewControllers = [doneVC]
+        }
+        
+        
+        
     }
     
 

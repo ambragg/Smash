@@ -155,7 +155,7 @@
         <!--Done View Controller-->
         <scene sceneID="05g-t9-7hu">
             <objects>
-                <viewController id="AgW-QN-SdK" customClass="DoneViewController" customModule="Smash" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DoneVC" id="AgW-QN-SdK" customClass="DoneViewController" customModule="Smash" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ebg-5q-vyN"/>
                         <viewControllerLayoutGuide type="bottom" id="fgX-1V-6Uh"/>
@@ -179,6 +179,7 @@
                                 </state>
                                 <connections>
                                     <action selector="restartGame:" destination="AgW-QN-SdK" eventType="touchUpInside" id="zcj-sb-tIZ"/>
+                                    <segue destination="CSb-E1-EJM" kind="presentation" id="YWZ-Kx-0Ge"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -229,4 +230,7 @@
             <point key="canvasLocation" x="-220" y="-14"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YWZ-Kx-0Ge"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F3435B391B0B6CEC001C7694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B381B0B6CEC001C7694 /* AppDelegate.swift */; };
 		F3435B3B1B0B6CEC001C7694 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B3A1B0B6CEC001C7694 /* LevelViewController.swift */; };
-		F3435B3E1B0B6CEC001C7694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3435B3C1B0B6CEC001C7694 /* Main.storyboard */; };
 		F3435B401B0B6CEC001C7694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3435B3F1B0B6CEC001C7694 /* Images.xcassets */; };
 		F3435B431B0B6CEC001C7694 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3435B411B0B6CEC001C7694 /* LaunchScreen.xib */; };
 		F3435B4F1B0B6CED001C7694 /* SmashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3435B4E1B0B6CED001C7694 /* SmashTests.swift */; };
@@ -38,7 +37,6 @@
 		F3435B371B0B6CEC001C7694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3435B381B0B6CEC001C7694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3435B3A1B0B6CEC001C7694 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
-		F3435B3D1B0B6CEC001C7694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3435B3F1B0B6CEC001C7694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3435B421B0B6CEC001C7694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F3435B481B0B6CED001C7694 /* SmashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +73,6 @@
 		F3435B2A1B0B6CEC001C7694 = {
 			isa = PBXGroup;
 			children = (
-				F3435B3C1B0B6CEC001C7694 /* Main.storyboard */,
 				F3435B351B0B6CEC001C7694 /* Smash */,
 				F3435B4B1B0B6CED001C7694 /* SmashTests */,
 				F3435B341B0B6CEC001C7694 /* Products */,
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3435B3E1B0B6CEC001C7694 /* Main.storyboard in Resources */,
 				F3435B431B0B6CEC001C7694 /* LaunchScreen.xib in Resources */,
 				F3435B401B0B6CEC001C7694 /* Images.xcassets in Resources */,
 				F3AEB0581B0CE5C500D07DED /* Rock_'s Death.ttf in Resources */,
@@ -284,15 +280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3435B3C1B0B6CEC001C7694 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3435B3D1B0B6CEC001C7694 /* Base */,
-			);
-			name = Main.storyboard;
-			path = Smash;
-			sourceTree = "<group>";
-		};
 		F3435B411B0B6CEC001C7694 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
